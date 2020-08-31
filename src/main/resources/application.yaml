@@ -1,0 +1,22 @@
+spring:
+  main:
+    web-application-type: none
+config:
+  executor:
+    rounds:
+      5
+  generator:
+    api:
+      parameters:
+        num: 1
+        min: 1
+        max: 100
+        col: 1
+        base: 10
+        format: plain
+        rnd: new
+    simple-java:
+      parameters:
+        min: 1
+        max: 100
+
